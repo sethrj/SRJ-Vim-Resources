@@ -1,0 +1,9 @@
+These are the files in my vim directory. They are all openly redistributable,
+but the copyright on most of them is not mine. Specifically, most of the
+.gvimrc, .vimrc, syntax stuff is of my own making, but the following projects
+are included:
+ - Vim-LaTeX package
+ - Doxygen, Markdown, MCNP etc. syntax highlighting (various authors)
+ - "kellys" colorscheme
+
+All files marked with my name are released into the public domain.
