@@ -1,0 +1,870 @@
+{
+"./dotvim": {
+"creation": 1317129304
+}, 
+"./dotvim/after": {
+"creation": 1316774617
+}, 
+"./dotvim/after/ftplugin": {
+"creation": 1316774617
+}, 
+"./dotvim/colors": {
+"creation": 1317129237
+}, 
+"./dotvim/compiler": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/doc": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/ftplugin": {
+"creation": 1317129260
+}, 
+"./dotvim/ftplugin/latex-suite": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/ftplugin/latex-suite/dictionaries": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/ftplugin/latex-suite/macros": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/ftplugin/latex-suite/packages": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/ftplugin/latex-suite/templates": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/indent": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/plugin": {
+"creation": 1316774617, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"./dotvim/spell": {
+"creation": 1317129260
+}, 
+"./dotvim/syntax": {
+"creation": 1317129304
+}, 
+".gitignore": {
+"creation": 1316777329
+}, 
+".gitxattr_json": {
+"creation": 1317129395
+}, 
+"Makefile": {
+"creation": 1316777329
+}, 
+"README": {
+"creation": 1316777329
+}, 
+"dotvim/after/ftplugin/tex_macros.vim": {
+"creation": 1316777329
+}, 
+"dotvim/colors/kellys.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.metadata:kMDItemWhereFroms": "YnBsaXN0MDChAV8QPmh0dHA6Ly92aW1jb2xvcnNjaGVtZXRlc3QuZ29vZ2xlY29kZS5jb20vc3ZuL2NvbG9ycy9rZWxseXMudmltCAoAAAAAAAABAQAAAAAAAAACAAAAAAAAAAAAAAAAAAAASw==\n", 
+"com.apple.quarantine": "MDAwMTs0ZGQ4NmYyOTtTYWZhcmk7fGNvbS5hcHBsZS5TYWZhcmk=\n"
+}
+}, 
+"dotvim/colors/seth.vim": {
+"creation": 1317129237
+}, 
+"dotvim/compiler/tex.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/doc/imaps.txt": {
+"creation": 1316777329
+}, 
+"dotvim/doc/latex-suite-quickstart.txt": {
+"creation": 1316777329
+}, 
+"dotvim/doc/latex-suite.txt": {
+"creation": 1316777329
+}, 
+"dotvim/doc/latexhelp.txt": {
+"creation": 1316777329
+}, 
+"dotvim/doc/taglist.txt": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0OGUyYzkzMTtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/doc/tags": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/bib_latexSuite.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/cmake.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/cpp.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/cuda.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/latex-suite/bibtex.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/latex-suite/bibtools.py": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/brackets.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/compiler.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/latex-suite/custommacros.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/diacritics.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/dictionaries/SIunits": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/dictionaries/dictionary": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/elementmacros.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/envmacros.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/latex-suite/folding.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/macros/example": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/main.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/mathmacros-utf.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/mathmacros.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/multicompile.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/outline.py": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/SIunits": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/accents": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/acromake": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/afterpage": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/alltt": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/amsmath": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/amsthm": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/amsxtra": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/arabic": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/array": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/babel": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/bar": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/biblatex": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/latex-suite/packages/bm": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/bophook": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/boxedminipage": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/caption2": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/cases": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/ccaption": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/changebar": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/chapterbib": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/cite": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/color": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/comma": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/csquotes": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/latex-suite/packages/deleq": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/drftcite": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/dropping": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/enumerate": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/eqlist": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/eqparbox": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/everyshi": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/exmpl": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/fixme": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/latex-suite/packages/flafter": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/float": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/floatflt": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/fn2end": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/footmisc": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/geometry": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/german": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/graphicx": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/graphpap": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/harpoon": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/hhline": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/histogram": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/hyperref": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/ifthen": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/inputenc": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/letterspace": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/lineno": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/longtable": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/lscape": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/manyfoot": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/moreverb": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/multibox": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/multicol": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/newalg": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/ngerman": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/numprint": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/oldstyle": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/outliner": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/overcite": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/pagenote": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/latex-suite/packages/parallel": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/plain": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/plates": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/polski": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/psgo": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/schedule": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/textfit": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/times": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/tipa": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/ulem": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/url": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/verbatim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/packages/version": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/projecttemplate.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/pytools.py": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/smartspace.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/templates.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/templates/IEEEtran.tex": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/templates/article.tex": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/templates/report.tex": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/templates/report_two_column.tex": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/texmenuconf.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/texproject.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/texrc": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/texviewer.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/version.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/latex-suite/wizardfuncs.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/python.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/sh.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/tex.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/tex_latexSuite.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/ftplugin/text.vim": {
+"creation": 1316777329
+}, 
+"dotvim/ftplugin/vim.vim": {
+"creation": 1316777329
+}, 
+"dotvim/indent/_python.vim": {
+"creation": 1316777329
+}, 
+"dotvim/indent/tex.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/plugin/SyntaxFolds.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/plugin/filebrowser.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/plugin/imaps.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/plugin/libList.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/plugin/remoteOpen.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0ODUxMWRjZDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/plugin/taglist.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0OGUyYzkzMTtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/scripts.vim": {
+"creation": 1316777329
+}, 
+"dotvim/spell/en.utf-8.add": {
+"creation": 1316777329
+}, 
+"dotvim/syntax/doxygen.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0YWY4YzBmMTtTYWZhcmk7MjI4MkExQkEtNkQ4Ny00QUQ1LTkzQTYtQkQ2NUY5RjE4RDVBfGNvbS5hcHBsZS5TYWZhcmk=\n"
+}
+}, 
+"dotvim/syntax/imcnp.vim": {
+"creation": 1316777329
+}, 
+"dotvim/syntax/mkd.vim": {
+"creation": 1316777329, 
+"xattrs": {
+"com.apple.quarantine": "MDAwMTs0OThkYTEyMDtGaXJlZm94O3xvcmcubW96aWxsYS5maXJlZm94\n"
+}
+}, 
+"dotvim/syntax/python.vim": {
+"creation": 1316777329
+}, 
+"gvimrc": {
+"creation": 1316777329
+}, 
+"vimrc": {
+"creation": 1316777329
+}
+}
