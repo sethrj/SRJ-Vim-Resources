@@ -33,6 +33,7 @@ let g:Tex_ViewRule_pdf = 'Skim'
 let g:Tex_FormatDependency_ps  = 'dvi,ps'
 let g:Tex_FormatDependency_pspdf = 'dvi,ps,pspdf'
 let g:Tex_FormatDependency_dvipdf = 'dvi,dvipdf'
+let g:Tex_MultipleCompileFormats = 'dvi,pdf'
 " ************
 
 " ************
@@ -67,7 +68,7 @@ endfunction
 
 " Write, open for viewing, compile, go to the end of the quickfix, hide the
 " preview, switch back to main window
-map <D-r> :w<cr><leader>lv<leader>llG<C-w>p:q<cr>
+map <D-r> :w<cr><leader>lv<leader>ll<C-w>p:q<cr>
 imap <D-r> <ESC><D-r>
 " Inverse search
 nmap <D-S-LeftMouse> <leader>ls
