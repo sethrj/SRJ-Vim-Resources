@@ -7,3 +7,16 @@ are included:
  - "kellys" colorscheme
 
 All files marked with my name are released into the public domain.
+
+INSTRUCTIONS
+------------
+
+The simple makefile copies everything to your home folder and vice-versa.
+
+	git clone git://github.com/sethrj/SRJ-Vim-Resources.git myvim
+	cd myvim
+	make install
+	# modify stuff in ~/.vimrc etc.
+	make rinstall
+	git commit -a
+

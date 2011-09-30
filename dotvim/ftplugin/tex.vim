@@ -33,7 +33,9 @@ let g:Tex_ViewRule_pdf = 'Skim'
 let g:Tex_FormatDependency_ps  = 'dvi,ps'
 let g:Tex_FormatDependency_pspdf = 'dvi,ps,pspdf'
 let g:Tex_FormatDependency_dvipdf = 'dvi,dvipdf'
-let g:Tex_MultipleCompileFormats = 'dvi,pdf'
+"let g:Tex_MultipleCompileFormats = 'dvi,pdf'
+" multiple compile seems kind of buggy
+let g:Tex_MultipleCompileFormats = ''
 " ************
 
 " ************
@@ -90,7 +92,8 @@ call IMAP('RSE', '\S\ref{sec:<++>}<++>', 'tex')
 call IMAP('RCH', 'Chapter~\ref{chap:<++>}<++>', 'tex')
 
 call IMAP('EFI', "\\begin{figure}[htb]\<cr>\\centering\<cr>\\includegraphics[width=3in]{<+file+>}\<cr>\\caption{<+caption text+>}\<cr>\\label{fig:<+label+>}\<cr>\\end{figure}<++>", "tex")
-call IMAP('ESU', '\subfigure[<++>]{  \label{fig:<++>}\includegraphics[width=3in]{<++>}}<++>', 'tex')
+call IMAP('ESU', '\subfloat[<++>]{%<++>%}%<++>', 'tex')
+call IMAP('ETA', "\\begin{table}[htb]\<cr>\\centering\<cr>\\begin{tabular}{<+dimensions+>}\<cr><++>\<cr>\\end{tabular}\<cr>\\caption{<+Caption text+>}\<cr>\\label{tab:<+label+>}\<cr>\\end{table}<++>", "tex")
 
 call IMAP('`R', '\Rightarrow', 'tex')
 "call IMAP('`i', '\imagi', 'tex')
