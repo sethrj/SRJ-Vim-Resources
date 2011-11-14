@@ -1,5 +1,6 @@
 RYSNC_CMD=rsync -CrlptgoX -v --exclude='*.swp' \
-		  --exclude='.DS_Store' --exclude='en.utf-8.add.spl'
+		  --exclude='.DS_Store' --exclude='*.pyc' \
+		  --exclude='en.utf-8.add.spl'
 
 install:
 	$(RYSNC_CMD) dotvim/ $(HOME)/.vim/

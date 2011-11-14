@@ -36,6 +36,23 @@ let g:Tex_FormatDependency_dvipdf = 'dvi,dvipdf'
 "let g:Tex_MultipleCompileFormats = 'dvi,pdf'
 " multiple compile seems kind of buggy
 let g:Tex_MultipleCompileFormats = ''
+
+" don't move the main window around after compiling
+let g:Tex_GotoError = 0
+
+" Ignore missing references too
+let g:Tex_IgnoredWarnings =
+	\'Underfull'."\n".
+	\'Overfull'."\n".
+	\'specifier changed to'."\n".
+	\'You have requested'."\n".
+	\'Missing number, treated as zero.'."\n".
+	\'There were undefined references'."\n".
+	\'Citation %.%# undefined'."\n".
+	\'Reference %.%# undefined'
+
+let g:Tex_IgnoreLevel = 8
+
 " ************
 
 " ************
@@ -70,7 +87,8 @@ endfunction
 
 " Write, open for viewing, compile, go to the end of the quickfix, hide the
 " preview, switch back to main window
-map <D-r> :w<cr><leader>lv<leader>ll<C-w>p:q<cr>
+"map <D-r> :w<cr><leader>lv<leader>ll<C-w>p:q<cr>
+map <D-r> :w<cr><leader>lv<leader>ll
 imap <D-r> <ESC><D-r>
 " Inverse search
 nmap <D-S-LeftMouse> <leader>ls

@@ -4,6 +4,8 @@ call IMAP(g:Tex_Leader.'v', '\vec{<++>}<++>', 'tex')
 call IMAP(g:Tex_Leader.'V', '\varsigma', 'tex')
 "change `e from \varepsilon to \epsilon
 call IMAP(g:Tex_Leader.'e', '\epsilon', 'tex')
+"units instead of upsilon
+call IMAP(g:Tex_Leader.'u', '\units{<++>}<++>', 'tex')
 call IMAP(g:Tex_Leader.'f', '\phi', 'tex')
 call IMAP(g:Tex_Leader.'O', '\Omega', 'tex')
 call IMAP(g:Tex_Leader.'o', '\omega', 'tex')
