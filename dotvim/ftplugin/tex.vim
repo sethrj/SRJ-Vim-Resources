@@ -53,6 +53,12 @@ let g:Tex_IgnoredWarnings =
 
 let g:Tex_IgnoreLevel = 8
 
+" ignore makefiles
+let g:Tex_UseMakefile = 1
+
+"let g:Tex_Debug = 1
+"let g:Tex_DebugLog = '~/vimlatex.log'
+
 " ************
 
 " ************
