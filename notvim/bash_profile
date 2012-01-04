@@ -1,0 +1,162 @@
+#save the path so that if we re-source .bash_profile and .bashrc we don't keep
+#adding and appending things.
+if [ -z "$ORIGINALPATH" ]; then
+	export ORIGINALPATH=$PATH
+else
+	export PATH=$ORIGINALPATH
+fi
+
+# Enable colors for ls, etc.  Prefer ~/.dir_colors #64489
+if [ -f ~/.dir_colors ]; then
+	eval `dircolors -b ~/.dir_colors`
+elif [ -f /etc/DIR_COLORS ]; then
+	eval `dircolors -b /etc/DIR_COLORS`
+else
+	export LSCOLORS="Cxfxcxdxbxegedabagacad"
+	export CLICOLOR=LSCOLORS
+fi
+
+function set_prompt() {
+	HOSTNM=$(hostname)
+	HOSTPRE=$(echo $HOSTNAME | sed -e 's/\..*//g')
+	if [[ $HOSTPRE == boyle  ]]; then
+		COLOR1="\[\e[30;42m\]" #light green
+		COLOR2=$COLOR1
+	elif [[ $HOSTPRE == lepton ]]; then
+		COLOR1="\[\e[30;43m\]" #yellow
+		COLOR2=$COLOR1
+	elif [[ $HOSTPRE == nyx*  ]]; then
+		COLOR1="\[\e[30;46m\]" #cyan
+		COLOR2=$COLOR1
+	elif [[ $HOSTPRE == caen-vnc* ]]; then
+		COLOR1="\[\e[34;46m\]" #blue on cyan
+		COLOR2=$COLOR1
+	elif [[ $HOSTPRE == mc00* ]]; then
+		COLOR1="\[\e[30;43m\]" #black on yellow
+		COLOR2="\[\e[37;44m\]" #white on blue
+	else
+		COLOR1="\[\e[37;41m\]" #white on red
+		COLOR2="\[\e[31;47m\]" #red on white
+	fi
+	COLOR0="\[\e[0m\]" #blank the colors
+	TTYWIDTH=$(stty size | cut -d" " -f2)
+	if [[ ${TTYWIDTH} == 110 || ${TTYWIDTH} == 80 ]]; then
+		PS1="${COLOR1}=============================="
+	else
+		PS1=""
+	fi
+	PS1="${PS1}${COLOR2}\d  \t${COLOR1}==============================${COLOR0}\n"
+	PS1="${PS1}\[\e[31;40m\]\u@\h\[\e[37;40m\]:\[\e[36;40m\]\w${COLOR0}\$ "
+	export PS1
+}
+
+if [ -n "$PS1" ]; then
+	set_prompt;
+fi
+
+#shell options
+#
+shopt -s cdspell cmdhist
+set completion-ignore-case On #ignore case with tab completion
+#store more history
+export HISTSIZE=1000
+export HISTCONTROL=erasedups
+
+#-b cause the status of terminated background jobs to be reported immediately, rather than before printing the next primary prompt.
+set -b 
+
+#ignore certain terminal commands
+export HISTIGNORE="&:[bf]g:exit:logout"
+
+##### SSH aliases #####
+alias sshreferen='ssh referen1@reference-man.com'
+
+##### other aliases #####
+alias findcode="find . \( -name '*.[hc]pp' -or -name '*.i' \)"
+alias grepcode="findcode | xargs grep "
+alias findrecent="find ~/ -mtime -2 | xargs ls -dtF | less"
+alias mktoday='mkdir `date +%Y%m%d`; cd `date +%Y%m%d`'
+alias ll='ls -alFh'
+alias l='ls -aF'
+alias cnx="netstat -f inet -W | awk '/ESTABLISHED/'"
+alias sourceprofile='source ~/.bash_profile'
+
+alias mcnp="mcnp5"
+alias gitst="git status"
+
+### remind me when I'm being dumb
+alias :q='echo "This is not vi. Stop doing that!"'
+
+function mc() {
+	LOGDIR="Testing/Temporary"
+ 	rm -f $LOGDIR/LastTestsFailed.log
+	make check -j 4
+	if [[ -e $LOGDIR/LastTestsFailed.log ]]
+	then
+		open Testing/Temporary/LastTest.log
+	fi
+}
+
+
+#use vim instead of vi
+alias vi='vim'
+
+function srcgrep() {
+	grep -in --exclude="\.*" "$1" * */* 
+}
+
+function countpytrtlines()
+{
+	find ~/_code/pytrt/* \( \
+		-name "*.hpp" -or \
+		-name "*.cpp" -or \
+		-name "*.py" -or \
+		-name "*.sh" -or \
+		-name "*.m" -or \
+		-name "*.txt" -or \
+		-name "*.i" -or \
+		-name "*.cmake" \
+	 \) -print0  | xargs -0 wc -l
+}
+
+function checkpytrtexec()
+{
+	if [[ -e checkpytrtexec.err ]]
+	then
+		rm -f checkpytrtexec.err
+		oldfailed=$failed
+		failed=""
+	else
+		oldfailed="exec/*.py"
+	fi
+
+	for f in $oldfailed
+	do
+		echo "========RUNNING $f" | tee checkpytrtexec.err
+		python $f 2>&1 | tee checkpytrtexec.err || failed="$failed $f"
+	done
+	rm -f *.h5 __*/* *.silo *.json
+	rmdir __*;
+	open $failed
+}
+
+# This file is sourced by bash for login shells.  The following line
+# runs your .bashrc and is recommended by the bash info pages.
+if [ -f $HOME/.bashrc ]; then
+	source ~/.bashrc
+fi
+
+PATH=$PATH:$HOME/bin:.
+
+export PATH
+unset USERNAME
+
+
+##
+# Your previous /Users/seth/.bash_profile file was backed up as /Users/seth/.bash_profile.macports-saved_2011-09-09_at_16:05:15
+##
+
+# MacPorts Installer addition on 2011-09-09_at_16:05:15: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+

@@ -1,0 +1,67 @@
+# Seth Johnson .bashrc
+# for paths, sourcing things, etc. NOT FOR ALIASES/TERMINAL MODS!
+
+# by default, multithread with two threads (two cores on my MacBook)
+export OMP_NUM_THREADS=2
+
+export CXX=/usr/bin/g++
+export CC=/usr/bin/gcc
+
+alias sleepytime="osascript -e 'tell app \"Finder\" to sleep'"
+
+# use multiple jobs with make by default
+alias make="make --jobs=4"
+
+# python path
+export PYTHONPATH=$PYTHONPATH:/Users/Shared/_local/site-packages/
+
+#use ~/Library/bin and shared library/bin
+PATH=$PATH:$HOME/bin
+#use my created binaries
+PATH=$PATH:/Users/Shared/_local/bin
+
+#use stuff from macports in /opt/local
+PATH=/opt/local/bin:/opt/local/sbin:$PATH
+MANPATH=/opt/local/man:$MANPATH
+
+#use compilers, etc. in /usr/local
+PATH=/usr/local/bin:$PATH
+MANPATH=/usr/local/man:$MANPATH
+
+#set vim as the text editor
+export export EDITOR='/Users/seth/bin/mvim -f -c "au VimLeave * !open -a Terminal"'
+alias vi=mvim
+alias vim=mvim
+alias vimdiff="mvim -d"
+
+#use vim for svn
+export SVN_EDITOR="$EDITOR --nofork"
+export GIT_EDITOR=$SVN_EDITOR
+
+#use Developer tools
+PATH=$PATH:/Developer/Tools/
+
+# use latex
+PATH=$PATH:/usr/texbin
+
+# copy current pytrt python files to site-packages
+alias cppytrt="rsync -am --include='*.py' -f 'hide,! */' ~/_code/pytrt/pytrt /Users/Shared/_local/site-packages/"
+
+# change PWD to python by default
+#function change_default_directory() {
+#	TTYN=$(tty | sed -e 's/.*ttys\([0-9]*\)/\1/')
+#	if [[ $TTYN == 000  ]]; then
+#		cd ~/_thesis/thesis
+#	elif [[ $TTYN == 001  ]]; then
+#		cd ~/_code/pytrt/
+#	elif [[ $TTYN == 002  ]]; then
+#		cd ~/_code/_build/pytrt/
+#	elif [[ $TTYN == 003  ]]; then
+#		cd ~/_code/_build/pytrtDEBUG/
+#	fi
+#}
+#
+#if [ -n "$PS1" ]; then
+#	change_default_directory;
+#fi
+

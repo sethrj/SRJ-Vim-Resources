@@ -1,0 +1,15 @@
+*.aux
+*.out
+*.log
+*.bbl
+*.blg
+*.synctex.gz
+*.nav
+*.snm
+*.toc
+*.swp
+*.swo
+.DS_Store
+*.pyc
+visitlog.py
+*~

@@ -867,6 +867,28 @@
 "gvimrc": {
 "creation": 1316777329
 }, 
+"notvim/bash_profile": {
+"creation": 1325631511
+}, 
+"notvim/bashrc": {
+"creation": 1325648661
+}, 
+"notvim/gitconfig": {
+"creation": 1325631601
+}, 
+"notvim/gitignore": {
+"creation": 1325631611
+}, 
+"notvim/inputrc": {
+"creation": 1325631533
+}, 
+"notvim/matplotlibrc": {
+"creation": 1325648684, 
+"xattrs": {
+"com.apple.metadata:_kTimeMachineNewestSnapshot": "YnBsaXN0MDAzQi1jw38AAAAIAAAAAAAAAQEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABE=\n", 
+"com.apple.metadata:_kTimeMachineOldestSnapshot": "YnBsaXN0MDAzQbNsRKkAAAAIAAAAAAAAAQEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAABE=\n"
+}
+}, 
 "vimrc": {
 "creation": 1316777329
 }

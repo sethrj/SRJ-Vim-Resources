@@ -1,0 +1,16 @@
+[core]
+	excludesfile = /Users/seth/.gitignore
+[color]
+	ui = auto
+[user]
+	email = sethrj@example.com
+	name = Seth R Johnson
+[alias]
+	st = status
+	co = checkout
+#[merge]
+#	tool = gvimdiff
+#[merge "gvimdiff"]
+#	path = /Users/seth/bin/mvim
+#[diff]
+#	external = /Users/seth/bin/git-filemerge-diff.sh
